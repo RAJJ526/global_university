@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global University</title>
+    <style>
+        /* Global Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #004080;
+}
+
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background: #004080;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+#hero .btn {
+    background: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Programs Section */
+#programs {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#programs .program-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#programs .program {
+    width: 30%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Admissions Section */
+#admissions {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#admissions .btn {
+    background: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+    </style>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Global University</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Empowering Minds, Shaping Futures</h2>
+            <p>Welcome to Global University, where excellence meets opportunity.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Global University is a leading institution committed to providing high-quality education and fostering innovation. Our diverse and inclusive community is dedicated to academic excellence and personal growth.</p>
+        </div>
+    </section>
+
+    <section id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="program-list">
+                <div class="program">
+                    <h3>Undergraduate</h3>
+                    <p>Explore a variety of undergraduate programs that prepare you for success in your chosen field.</p>
+                </div>
+                <div class="program">
+                    <h3>Graduate</h3>
+                    <p>Pursue advanced studies and research opportunities with our graduate programs.</p>
+                </div>
+                <div class="program">
+                    <h3>Online</h3>
+                    <p>Flexible and accessible online programs designed for working professionals and lifelong learners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Join Global University and take the first step towards a bright future. Discover our admission process and requirements.</p>
+            <a href="#contact" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Global University. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
